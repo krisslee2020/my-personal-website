@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kriss Lee's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: #fff;
+            padding: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            padding: 2rem;
+        }
+        .section {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #444;
+            padding-bottom: 0.5rem;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .external-links a {
+            display: inline-block;
+            margin: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: #444;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .external-links a:hover {
+            background: #555;
+        }
+        @media (min-width: 768px) {
+            .container {
+                grid-template-columns: 1fr 1fr;
+            }
+            nav a {
+                padding: 1rem 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kriss Lee</h1>
+        <p>Information Management Specialist</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+        <a href="#resources">Resources</a>
+        <a href="#media">Media</a>
+        <a href="#social">Social</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hi, I'm Kriss Lee, a 30-year-old graduate from Peking University, majoring in Information Management and Information. I am a kind, smart, and caring individual with a passion for sports, photography, food, and traveling around the world.</p>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <p>Details about your projects will go here. You can showcase your work, link to portfolios, or describe any noteworthy accomplishments.</p>
+        </section>
+
+        <section id="blog" class="section">
+            <h2>Blog</h2>
+            <p>Share your thoughts, experiences, and insights in this section. You can write about sports, photography, travel, and more.</p>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, please reach out via email at <a href="mailto:kriss.lee@example.com" style="color: #333; text-decoration: underline;">kriss.lee@example.com</a> or connect with me on social media.</p>
+        </section>
+
+        <section id="resources" class="section">
+            <h2>Resources</h2>
+            <p>Here are some useful learning resources:</p>
+            <div class="external-links">
+                <a href="https://www.coursera.org/" target="_blank">Coursera</a>
+                <a href="https://www.udemy.com/" target="_blank">Udemy</a>
+                <a href="https://www.edx.org/" target="_blank">edX</a>
+                <a href="https://www.khanacademy.org/" target="_blank">Khan Academy</a>
+                <a href="https://www.codecademy.com/" target="_blank">Codecademy</a>
+                <a href="https://www.linkedin.com/learning/" target="_blank">LinkedIn Learning</a>
+            </div>
+        </section>
+
+        <section id="media" class="section">
+            <h2>Media</h2>
+            <p>Listen to music, watch videos, and read books here:</p>
+            <div class="external-links">
+                <a href="https://open.spotify.com/" target="_blank">Spotify</a>
+                <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+                <a href="https://www.goodreads.com/" target="_blank">Goodreads</a>
+            </div>
+        </section>
+
+        <section id="social" class="section">
+            <h2>Social</h2>
+            <p>Connect with me on social media:</p>
+            <div class="external-links">
+                <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                <a href="https://www.twitter.com/" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+            </div>
+        </section>
+
+        <section id="news" class="section">
+            <h2>News</h2>
+            <p>Stay updated with the latest news:</p>
+            <div class="external-links">
+                <a href="https://www.bbc.com/news" target="_blank">BBC News</a>
+                <a href="https://www.cnn.com/" target="_blank">CNN</a>
+                <a href="https://www.reuters.com/" target="_blank">Reuters</a>
+                <a href="https://www.nytimes.com/" target="_blank">The New York Times</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Kriss Lee. All rights reserved.</p>
+    </footer>
+</body>
+</html>
